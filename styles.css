@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap');
+body {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.container {
+   width: 100%;
+   max-width: 900px;
+   height: auto;
+   box-shadow: 0 0 20px #00000030;
+   border: 1px solid #00000000;
+   display: flex;
+   justify-content: space-around;
+   padding: 0 20px;
+}
+
+.asideHP {
+   color: #234f92;
+}
+.info {
+   margin: 65px auto;
+}
+
+.item-1, .item-2, .item-3 {
+ width: 100%;
+ max-width: 320px;
+ max-height: 617px;
+ text-align: center;
+ padding: 13px 15px;
+}
+
+.item-2 {
+   background-image: linear-gradient(to bottom right,#234f92,#2cc0a5);
+   border: none;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px; 
+  }
+
+button {
+   display: block;
+   margin-bottom: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+   border-radius: 25px;
+   font-size: 17px; 
+   font-weight: bolder;
+   color: white;
+   cursor: pointer;
+   width: 100%;
+   height: 55px;
+   padding: auto;
+   text-transform: uppercase;
+   transition-duration: 0.3s;
+}
+
+.buyBtn {
+   background-color: #2cc0a5;
+}
+
+.details_middleBtn {
+   background-color: transparent;
+   border: 1px solid #fff;
+}
+
+.detailsBtn {
+   background-color: #fff;
+   border: 1px solid #2cc0a5;
+   color:#2cc0a5;
+}
+
+.buyBtn:hover {
+   background-color: #fff;
+   border: 1px solid #2cc0a5;
+   box-shadow: 0 0 17px  #807c7ca1;
+   color: #2cc0a5;
+}
+
+.detailsBtn:hover {
+ color: #fff;
+ background-color: #2cc0a5;
+ box-shadow: 0 0 17px  #807c7ca1;
+}
+
+h1 {
+   font-weight: bolder;
+   font-size: 36px;
+}
+
+.Middle {
+   color: #fff;
+}
+
+.price {
+   color:#2cc0a5;
+}
+
+
